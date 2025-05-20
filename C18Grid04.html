@@ -25,11 +25,16 @@
     .header{
       grid-area: header; background-color: #673ab7;
     }
-    .sidebar{
+    .sidebar.test1{
       grid-area: sidebar; background-color: #009688;
     }
+    .sidebar.test2{
+      grid-area: content; 
+      background-color: #ffc107;
+    }
     .content{
-      grid-area: content; background-color: #ffc107;
+      /* grid-area: content;  */
+      background-color: #ffc107;
     }
     .footer{
       grid-area: footer; background-color: #795548;
@@ -43,8 +48,8 @@
   <h2>grid-시각적 설계</h2>
   <div class="container">
     <div class="header">Header</div>
-    <div class="sidebar">Sidebar</div>
-    <div class="content">Content</div>
+    <div class="sidebar test1">Sidebar</div>
+    <div class="sidebar test2">Content</div>
     <div class="footer">Footer</div>
   </div>
 </body>
